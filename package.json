@@ -1,0 +1,14 @@
+{
+  "name": "niles-__SKILL_NAME__",
+  "version": "0.1.0",
+  "description": "Niles skill",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "niles",
+    "skill"
+  ],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {}
+}
