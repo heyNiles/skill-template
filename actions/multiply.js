@@ -4,9 +4,8 @@ module.exports = (params, ctx) => {
   let { number_one: numberOne, number_two: numberTwo } = params;
 
   if (!numberOne || !numberTwo) {
-    // Maybe read them from the user with ctx.logger.inquirer
-    logger.log('I\'m sorry, I couldn\'t understand the numbers to multiply.');
-    return;
+    // Maybe read them from the user with ctx.logger.inquirer instead
+    throw new Error('I\'m sorry, I couldn\'t understand the numbers to multiply.');
   }
 
   numberOne = parseFloat(numberOne.value.trim());
